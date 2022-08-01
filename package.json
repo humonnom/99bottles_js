@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -8,6 +9,7 @@
     "jest": "^26.0.1"
   },
   "scripts": {
+    "my": "node --trace-warnings --es-module-specifier-resolution=node index.js",
     "eslint": "eslint lib test",
     "test": "jest"
   },
